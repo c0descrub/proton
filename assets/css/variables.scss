@@ -1,4 +1,13 @@
 //Typography
+$main: 'Poppins', sans-serif;
+
+//Colors
+$on_blue: #FFF;
+$head_on_white: #191c1e;
+$body_on_white: #a0a6ad;
+$body_link: #3c9cfd;
+$button_title: #dbecff;
+$gradient: -webkit-linear-gradient(0deg,#3c96ff 0%,#2dfbff 100%);
 
 //mobile
 $h1: 28px;
@@ -15,7 +24,7 @@ $body_text_d: 26px;
 $bold: 800;
 
 // Breakpoints
-$sm: 544px;
+$sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
