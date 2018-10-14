@@ -1,6 +1,7 @@
 @import 'variables';
 
 .container {
+    max-width: $sm;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -133,6 +134,19 @@ ul{
     padding: 10px 30px;
     color: $on-blue;
 }
+
+.btn-spacing--top {
+    margin-bottom: 40px;
+}
+
+.header-img {
+    display: block;
+    width: 80%;
+}
+
+
+
+
 
 // // Container
 // @media (max-width: $xl) {
