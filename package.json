@@ -9,9 +9,6 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "micro": "latest"
-  },
   "devDependencies": {
     "node-sass": "^4.9.3"
   }

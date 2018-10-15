@@ -1,6 +1,6 @@
 @import 'variables';
 
-.container {
+.site-wrapper{
     max-width: $sm;
     padding-right: 15px;
     padding-left: 15px;
@@ -30,7 +30,6 @@ body {
 
 header {
      background-image: $gradient;
-     height: 600px;
 }
 
 .topnav {
@@ -112,7 +111,7 @@ ul{
     }
 }
 
-.btn {    
+.btn, .sub-title {    
     border-radius: 30px;
     text-decoration: none;
     font-family: $headings;
@@ -120,31 +119,80 @@ ul{
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-right: 20px;
+    
 }
 
 .download-btn {
     background-color: $on-blue;
     padding: 10px 30px;
     color: $body_link;
+    margin-right: 20px;
 }
 
 .get-started-btn {
     border: 2px solid $on-blue;
     padding: 10px 30px;
     color: $on-blue;
+    margin-right: 20px;
 }
 
-.btn-spacing--top {
+.btn-spacing {
     margin-bottom: 40px;
 }
 
 .header-img {
     display: block;
-    width: 80%;
+    width: 100%;
+    height: auto;
 }
 
+.sub-title {
+    background-color: #dbecff;
+    text-align: center;
+    width: 100px;
+    padding: 5px 20px;
+    margin: auto;
+    margin-top: 50px;
+}
 
+.section-title {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: $gradient;
+    text-align: center;
+}
+
+.feature-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.feature-description {
+    color: $body_on_white;
+    width: 65%;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.icon {
+    padding: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-image: $gradient;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+
+.feature-alignment {
+    display: flex;
+    align-items: center;
+}
+
+.feature-card {
+    margin: 0 auto;
+}
 
 
 
