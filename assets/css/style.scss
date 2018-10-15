@@ -28,7 +28,7 @@ body {
     }
 }
 
-header {
+.hero-background {
      background-image: $gradient;
 }
 
@@ -170,7 +170,7 @@ ul{
 
 .feature-description {
     color: $body_on_white;
-    width: 65%;
+    width: 80%;
     font-size: 14px;
     display: inline-block;
 }
@@ -192,6 +192,8 @@ ul{
 
 .feature-card {
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 
