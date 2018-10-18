@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "npm run buildsass && npm run watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "buildsass": "node-sass assets/css/style.scss -o assets/css",
-    "watch": "node-sass -w assets/css/style.scss -o assets/css"
+    "start": "npm run build:scss && npm run watch:scss",
+    "build:scss": "node-sass assets/scss/style.scss -o assets/compiled/css",
+    "watch:scss": "node-sass -w assets/scss/style.scss -o assets/compiled/css",
+    "build:js": "babel assets/js/main.js -o assets/compiled/js/main.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.9.3"
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "node-sass": "^4.9.3",
+    "concurrently": "^4.0.1"
+  },
+  "dependencies": {
+    "hamburgers": "^1.1.3"
   }
 }

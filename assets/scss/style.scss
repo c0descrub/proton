@@ -1,5 +1,7 @@
-@import 'variables';
-@import 'buttons';
+@import 'normalize.scss';
+@import 'bootstrap-grid-only.scss';
+@import 'variables.scss';
+@import 'buttons.scss';
 
 .site-wrapper{
     max-width: $sm;
@@ -43,6 +45,7 @@ body {
     background-color: #212529;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 .nav-logo {
@@ -86,7 +89,7 @@ ul{
 .toggle {
     color: $on-blue;
     float: right;
-    padding: 18px 20px;
+    padding: 18px 20px 0px 20px;
     font-size: 24px;
     display: none;
 }
@@ -318,3 +321,4 @@ ul{
 //         max-width: 540px;
 //     } 
 // }
+
