@@ -1089,7 +1089,7 @@ ul {
 .sub-title {
   background-color: #dbecff;
   text-align: center;
-  padding: 5px 20px; }
+  padding: 5px 0px; }
 
 .sub-title--features {
   width: 100px;
@@ -1098,7 +1098,7 @@ ul {
   margin-bottom: 25px; }
 
 .sub-title--how {
-  width: 120px;
+  width: 145px;
   margin-top: 35px;
   margin-bottom: 20px; }
 
